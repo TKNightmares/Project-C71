@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+}
+
+#welcome{
+    color:whitesmoke;
+    bottom:0;
+    background: linear-gradient(#00028f,rgb(135, 0, 0) );
+    display:table;
+    height:100%;
+    width:100%;
+    z-index:9; 
+}
+
+#video iframe{
+    width:80%;
+}
+
+.my_nav_bar{
+    position: sticky;
+    top:0;
+    z-index:99999;
+}
+
+.travel.mainDiv{
+    border:1px solid darkblue;
+}
+
+.travel.mainDiv img{
+    width:50%;
+    height:50%;
+}
+
+.movie_head{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.movie_head i{
+    float:right;
+}
+
